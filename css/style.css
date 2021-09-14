@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.bg-primary{
+    background: linear-gradient(to right,#fc00ff,#00dbde )!important;
+}
+.dark{
+    color: black;
+}
+
+h1, h2 {
+    font-weight: 200;
+    font-family: 'Poppins',sans-serif;
+    margin: 0.4rem;
+  }
+  
+  h1 {
+    font-size: 5vw;
+    font-family: 'Poppins',sans-serif;
+  }
+  
+  h2 {
+    font-size: 5vw;
+    font-family: 'Poppins',sans-serif;
+    color: black;
+  }
+  h4{
+    font-size: 5vw;
+    font-family: 'Poppins',sans-serif;
+    color: black;
+
+  }
+  
+  /* Cursor */
+  .txt-type > .txt {
+    border-right: 0.2rem solid black;
+  }
+  
+  @media(min-width: 1200px) {
+    h1 {
+      font-size: 5vw;
+      font-family: 'Poppins',sans-serif;
+    }
+  }
+  
+  @media(max-width: 800px) {
+    h1 {
+      font-size: 5vw;
+      font-family: 'Poppins',sans-serif;
+    }
+  }
+  
+  @media(max-width: 500px) {
+    h1 {
+      font-size: 5vw;
+      font-family: 'Poppins',sans-serif;
+    }
+  
+    h2 {
+      font-size: 5vw;
+      font-family: 'Poppins',sans-serif;
+    }
+  }
+
+.my-circle{
+    height: 60.0px;
+    width: 60.0px;
+    position: center;
+}
+body {
+  scroll-behavior: smooth;
+}
+
+.about {
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+.about h4 {
+  font-weight: 500;
+  margin-bottom: 50px;
+  letter-spacing: .1rem;
+}
+
+.about .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .about__desc button {
+    margin-bottom: 50px;
+  }
+}
+
+.box{
+    position: absolute;
+    left: 50%;
+    
+    padding: 20.0px;
+
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: flex ;
+    
+}
+.box .img_box{
+    width: 150.0px;
+    flex: 50px 0 150px;
+}
+.box .img_box img{
+    max-width: 500.0px;
+}
+.box .content{
+    padding-left: 20.0px;
+    text-align: justify;
+}
+
+.about .container{
+    height: 1000.0px;
+    width: 500.0px;
+    position: relative;
+}
+
+.about_image{
+    height: 50.0px;
+    width: 50.0px;
+  
+}
+
+.destinations {
+  background: var(--color-secondary);
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.destinations h4 {
+  font-weight: 500;
+  margin-bottom: 50px;
+  letter-spacing: .1rem;
+}
+
+.testimonials {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.testimonials h4 {
+  margin-bottom: 50px;
+  font-weight: 500;
+  letter-spacing: .1rem;
+}
+
+.testimonials .carousel-item {
+  width: 300px;
+  min-height: 100%;
+  padding: 1rem;
+}
+
+.page-footer {
+  background: linear-gradient(to right,#fc00ff,#00dbde )!important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 13px;
+}

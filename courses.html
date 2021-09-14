@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo_new.PNG" type="image/x-icon">
+    <title>Coders Arena</title>
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/dda7a08063.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/courses.css">
+    <script src="js/courses.js"></script>
+
+    <style>
+        .bg-primary{
+    background: linear-gradient(to right,#fc00ff,#00dbde )!important;
+    font-size: 15px;
+}
+.heading{
+    margin-left:100px;
+}
+.course .box-container .box img{
+    height:20rem;
+    width: 100%;
+    object-fit: cover;
+}
+.course .box-container .box .price{
+    position: absolute;
+    top:16rem; right:1rem;
+    height:8rem;
+    width:8rem;
+    line-height: 8rem;
+    text-align: center;
+    border-radius: 50%;
+    background:var(--gradient);
+    color:orange;
+    font-size: 3rem;
+}
+.page-footer {
+    background: linear-gradient(to right,#fc00ff,#00dbde )!important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 13px;
+  }
+    </style>
+     
+</head>
+
+<body>
+     <!--nav bar starting-->
+
+     <nav class="bg-primary">
+        <div class="container">
+         <div class="nav-wrapper">
+             <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+           <a href="#" class="brand-logo ">Coders Arena</a>
+           <ul id="nav-mobile" class="right hide-on-med-and-down">
+             <li><a style="font-size: 100%;" href="index.html"><i class="material-icons left">home</i>Home</a></li>
+             <li><a style="font-size: 100%;" href="courses.html"><i class="material-icons left">import_contacts</i>Courses</a></li>
+             <li><a style="font-size: 100%;" href="about_us.html"><i class="material-icons left">info</i>About Us</a></li>
+             <li><a style="font-size: 100%;" href="contact_us.php"><i class="material-icons left">call</i>Contact</a></li>
+             <li><a style="font-size: 100%;" href="register.php"><i class="material-icons left">account_circle</i>Login/Sign-Up</a></li>
+             
+           </ul>
+         </div>
+     </div>
+       </nav>
+ 
+       <!--end of nav bar-->
+ 
+       <!--start of side nav bar for mobile-->
+ 
+   <ul id="slide-out" class="sidenav">
+     <li><div class="user-view">
+       <div class="background">
+         <img src="images/side_bar_bg.jpg">
+       </div>
+       <a href="#user"><img class="circle" src="images/my_photo.png"></a>
+       <a href="#name"><span class="white-text name">Dwijsinh H Gohil</span></a>
+       <a href="dwijgohil24@gmail.com"><span class="white-text email">dwijgohil24@gmail.com</span></a>
+     </div></li>
+     <li><a href="index.html"><i class="material-icons left">home</i>Home</a></li>
+             <li><a href="courses.html"><i class="material-icons left">import_contacts</i>Courses</a></li>
+             <li><a href="about_us.html"><i class="material-icons left">info</i>About Us</a></li>
+             <li><a href="contact_us.php"><i class="material-icons left">call</i>Contact</a></li>
+             <li><a href="register.php"><i class="material-icons left">account_circle</i>Login/Sign-Up</a></li>
+ 
+     <li><div class="divider"></div></li>
+     <li><a class="subheader">Connect With Us</a></li>
+     <li><a class="waves-effect" href="https://www.youtube.com/channel/UCv-hJwt6dcm7YMVpFr2Sx_g">Our Youtube Channel</a></li>
+   </ul>
+  
+       <!--end of side nav bar for mobile-->
+
+       <!-- course section starts  -->
+       <section class="course" id="course">
+
+        <h1 class="header center dark-text" >OUR POPULAR COURSES <br> To access premium paid courses for free <br> just Sign-Up!!</h1>    
+        
+        <div class="box-container">
+        
+            <div class="box">
+                <img src="images/course1.jpg" alt="">
+                <h3 class="price">FREE</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="https://www.youtube.com/channel/UCv-hJwt6dcm7YMVpFr2Sx_g" class="title">learn front end development</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, beatae. Modi quos excepturi id quibusdam? Molestiae quis nihil non debitis!</p>
+                    <div class="info">
+                        <h3> <i class="far fa-clock"></i> 2 hours </h3>
+                        <h3> <i class="far fa-calendar-alt"></i> 6 months </h3>
+                        <h3> <i class="fas fa-book"></i> 12 modules </h3>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="box">
+                <img src="images/course2.jpg" alt="">
+                <h3 class="price">FREE</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="https://www.youtube.com/c/flutterdev" class="title">Learn Flutter</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, beatae. Modi quos excepturi id quibusdam? Molestiae quis nihil non debitis!</p>
+                    <div class="info">
+                        <h3> <i class="far fa-clock"></i> 2 hours </h3>
+                        <h3> <i class="far fa-calendar-alt"></i> 6 months </h3>
+                        <h3> <i class="fas fa-book"></i> 12 modules </h3>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="box">
+                <img src="images/course3.jpg" alt="">
+                <h3 class="price">FREE</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="https://www.youtube.com/channel/UCv-hJwt6dcm7YMVpFr2Sx_g" class="title">Learn C++ In 3 Months</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, beatae. Modi quos excepturi id quibusdam? Molestiae quis nihil non debitis!</p>
+                    <div class="info">
+                        <h3> <i class="far fa-clock"></i> 2 hours </h3>
+                        <h3> <i class="far fa-calendar-alt"></i> 3 months </h3>
+                        <h3> <i class="fas fa-book"></i> 6 modules </h3>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="box">
+                <img class="responsive-img" src="images/course4.PNG" alt="">
+                <h3 class="price">$50</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="register.php" class="title">Learn Java With Projects</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, beatae. Modi quos excepturi id quibusdam? Molestiae quis nihil non debitis!</p>
+                    <div class="info">
+                        <h3> <i class="far fa-clock"></i> 2 hours </h3>
+                        <h3> <i class="far fa-calendar-alt"></i> 3 months </h3>
+                        <h3> <i class="fas fa-book"></i> 10 modules </h3>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="box">
+                <img src="images/course5.jfif" alt="">
+                <h3 class="price">$50</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="register.php" class="title">Ace ICPC Course</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, beatae. Modi quos excepturi id quibusdam? Molestiae quis nihil non debitis!</p>
+                    <div class="info">
+                        <h3> <i class="far fa-clock"></i> 1 hours </h3>
+                        <h3> <i class="far fa-calendar-alt"></i> 12 months </h3>
+                        <h3> <i class="fas fa-book"></i> 132 modules </h3>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="box">
+                <img src="images/course_last.jpg" alt="">
+                <h3 class="price">$50</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="register.php" class="title">DSA Bootcamp 2021</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, beatae. Modi quos excepturi id quibusdam? Molestiae quis nihil non debitis!</p>
+                    <div class="info">
+                        <h3> <i class="far fa-clock"></i> 3 hours </h3>
+                        <h3> <i class="far fa-calendar-alt"></i> 6 months </h3>
+                        <h3> <i class="fas fa-book"></i> 110 modules </h3>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+        
+        </section>
+        
+        <!-- course section ends -->
+
+        <!--javascript functionality starts-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="js/materialize.min.js"></script>
+        <script src="js/share.js"></script>
+        <script src="js/type.js"></script>
+        <script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav();  
+            M.Slider.init($('.slider'));
+            M.Materialbox.init($('.materialboxed'));
+    
+          });</script>
+          <!--javascript functionality starts-->
+
+<!--footer strats-->
+
+<footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Made with <i class="material-icons ">favorite</i> by DWIJSINH H GOHIL</h5>
+          <p class="grey-text text-lighten-4">DHARMSINH DESAI UNIVERSITY</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Follow Us On</h5>
+          <ul>
+            <li><a class="btn-floating red darken-3" href="https://www.youtube.com/channel/UCv-hJwt6dcm7YMVpFr2Sx_g"><i class="fab fa-youtube"></i></a> YOUTUBE</li>
+            <br>
+            <li><a class="btn-floating light-blue darken-3" href="https://www.linkedin.com/in/dwijsinh-h-gohil-2415521b9"><i class="fab fa-linkedin"></i> </a> Linkdin</li>
+            <br>
+            <li><a class="btn-floating black darken-3" href="https://www.instagram.com/dwijsinh_gohil/"><i class="fab fa-instagram"></i></a> INSTAGRAM</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      © 2021 Coders Arena
+      </div>
+    </div>
+  </footer>
+  
+  <!--footer ends here-->
+
+    </body>
+    </html>
+
+
